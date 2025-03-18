@@ -27,9 +27,6 @@ storybook-static
 
 # Local env files
 *.local
-.env
-.env.*
-!.env.local.example
 
 # Testing
 coverage
