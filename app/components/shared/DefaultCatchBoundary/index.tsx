@@ -8,6 +8,7 @@ export function DefaultCatchBoundary({ error }: Readonly<ErrorComponentProps>) {
     select: (state) => state.id === rootRouteId,
   })
 
+  // eslint-disable-next-line no-console
   console.error(error)
 
   return (
